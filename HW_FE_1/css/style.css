@@ -1,0 +1,28 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+
+h3 {
+    padding: 21px;
+}
+
+
+div {
+
+    padding: 21px;
+}
+
+p {
+    background-color: #34495E;
+
+    border-radius: 20px;
+
+    padding: 21px;
+
+    border: 2px solid;
+
+    color: aquamarine;
+}
