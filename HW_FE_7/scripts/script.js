@@ -53,3 +53,45 @@
 //   }
   
 //   console.log( sumTo(100) );
+//task 5
+//Напишите функцию, которая принимает два числовых аргумента n и m и считает сумму четных чисел и нечетных чисел от n до m. Суммы выведите в консоль (в начале сумму четных чисел, а затем сумму нечетных).
+// function getSumOfEvenAndOddNumbers(n, m) {
+//     let sumOddNumbers = 0
+//     let sumEvenNumbers = 0
+//     for (let i = m; i <= n; i++) {
+//         if (i % 2 === 0) {
+//             sumEvenNumbers += i // проверка на четность
+//         } else {
+//             sumOddNumbers += i
+//         }
+//     }
+//     return {
+//         even: sumEvenNumbers,
+//         odd: sumOddNumbers
+//     }
+
+// }
+// const result = getSumOfEvenAndOddNumbers(100, 15);
+// console.log('the sum of even numbers: ', result.even);
+// console.log('the sum of odd is ', result.odd)
+
+
+
+
+//task 6 //////////////////////////////////////
+// function findTheLongestString(strings){
+//     if(strings.length === 0){
+//         return null
+//     }
+//     let theLongestString = strings[0];
+//     for(let i = 1; i < strings.length; i++){
+//         if(strings[i].length > theLongestString.length){
+//         theLongestString = strings[i]
+//         }
+//     }
+//     return theLongestString
+// }
+// const inputArray = [ 'one', 'two', 'three' ];
+// const result = findTheLongestString(inputArray);
+// console.log(result);
+
